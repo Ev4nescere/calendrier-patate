@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Calendrier chargé !');
-
+    //REGARDE PAS LA ! J'héberge via github donc j'ai pas le choix de mettre tout coté client :(
     const messages = {
         1: "Coucou Patate !! On est le premier jour de décembre heheheh. Ça me fait penser au changement de saison dans Stardew Valley... Bon, aucun rapport, mais c'est pour te dire que ce calendrier que tu t'apprêtes à ouvrir jusqu'à Noël a été fait de mes mains, rien que pour toi ! Ce seront surtout des petits messages (rien de fou), même si je n'avais pas mille idées, j'y ai mis tout mon coeur :] J'espère que tu l'ouvriras chaque jour !!! Fun fact, la pyramide des cadeaux est censée imiter la forme d'un sapin (si tout va bien, ce devrait être toi qui l'as dessiné !) Tu pourras ouvrir ta case chaque soir à minuit si je sais bien coder, voili voilou pour les règles, ton message du jour c'est : Orlane déjà j'adore ton prénom et tu le sais ensuite, je suis tellement heureux que nos destins se soient croisés. J'espère sincèrement que ce calendrier te donnera le sourire !! Je t'aime fort n'hésite pas à me dire quand tu ouvres ta case, tes réactions me feront chaud au coeur ! :]",
         2: "",
@@ -42,9 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (cadeau.classList.contains('opened')) return;
 
             const now = new Date();
-            const mois = now.getMonth(); 
-            const jour = now.getDate();
-            
+            //const mois = now.getMonth(); 
+            //const jour = now.getDate();
+            const mois = 11;
+            const jour = 15;
             if (mois < 11 || (mois === 11 && jour < i)) {
                  showModal("EH !! Toi !!! Tu triches !!!! Pas de bagarre si tu continues, attends le " + i + " décembre !");
                  return;
@@ -93,3 +94,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
