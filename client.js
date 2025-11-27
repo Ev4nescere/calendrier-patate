@@ -47,6 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const mois = 11;
             const jour = 15;
             if (mois < 11 || (mois === 11 && jour < i)) {
+                 console.log("probleme, mois :", mois);
+                console.log("probleme, jour :", jour);
                  showModal("EH !! Toi !!! Tu triches !!!! Pas de bagarre si tu continues, attends le " + i + " décembre !");
                  return;
             }
@@ -94,5 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
 
 
