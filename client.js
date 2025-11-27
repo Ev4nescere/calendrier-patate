@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                  return;
             }
 
-            const msg = messages[i] || `Oups, j'ai oublié de remplir la case ${i} !`;
+            const msg = messages[i] || `Mdrr l'abruti que je suis a oublié de mettre le contenu de ce cadeau, vien me bagarrer si ce message spawn pr le Cadeau #${id}`;
             cadeau.classList.add('opened');
             showModal(msg);
         });
@@ -94,4 +94,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
 
