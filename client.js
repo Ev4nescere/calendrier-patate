@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //REGARDE PAS LA ! J'héberge via github donc j'ai pas le choix de mettre tout coté client :(
     const messages = {
         1: "Coucou Patate !! On est le premier jour de décembre heheheh. Ça me fait penser au changement de saison dans Stardew Valley... Bon, aucun rapport, mais c'est pour te dire que ce calendrier que tu t'apprêtes à ouvrir jusqu'à Noël a été fait de mes mains, rien que pour toi ! Ce seront surtout des petits messages (rien de fou), même si je n'avais pas mille idées, j'y ai mis tout mon coeur :] J'espère que tu l'ouvriras chaque jour !!! Fun fact, la pyramide des cadeaux est censée imiter la forme d'un sapin (si tout va bien, ce devrait être toi qui l'as dessiné !) Tu pourras ouvrir ta case chaque soir à minuit si je sais bien coder, voili voilou pour les règles, ton message du jour c'est : Orlane déjà j'adore ton prénom et tu le sais ensuite, je suis tellement heureux que nos destins se soient croisés. J'espère sincèrement que ce calendrier te donnera le sourire !! Je t'aime fort n'hésite pas à me dire quand tu ouvres ta case, tes réactions me feront chaud au coeur ! :]",
-        2: "",
+        2: "Je sais pas à quel moment de la journée tu ouvrira ce cadeau, mais sache que tu me manques énormément, <br> Si tu ouvre ce msg et que je dors, j'aurais tout fait avant de dormir pour essayer de rêver de toi <br> Si on se parle pas à cet instant précis, tu me manques énormément et j'attends un de tes messages qui me donnera le sourire automatiquement<br>Si on parle par message à ce moment là, tu me manques tout malgré ça, car j'adorerais entendre ta voix<br>Et si tu ouvre ce message pendant qu'on est en vocal, sache que tu me manques tout de même car je rêve d'être à tes côtés physiquement... ❣️",
         3: "",
         4: "",
         5: "",
@@ -96,6 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
 
 
 
