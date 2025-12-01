@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.className = 'modal';
 
         const p = document.createElement('p');
-        p.textContent = text;
+        p.innerHTML = text;
 
         const btn = document.createElement('button');
         btn.className = 'modal-close';
@@ -96,6 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
 
 
 
